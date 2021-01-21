@@ -84,3 +84,6 @@
   font-weight: bold;
   border-radius: 2rem;
 }
+.nav-title img {
+  height: 50px;
+}

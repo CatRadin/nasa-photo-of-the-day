@@ -26,7 +26,7 @@ useEffect(() => {
     <div className="App">
       <Nav />
       <Card nasaData={nasaData} date={date} />
-      <Arrow />
+      {/* <Arrow /> */}
     </div>
   );
 }
