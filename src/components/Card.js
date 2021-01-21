@@ -7,7 +7,7 @@ import "./styles.css";
 export default function Card(props){
     const { nasaData } = props
     const { date } = props
-    console.log(date, nasaData);
+    
 return (
     <div className= 'card-container'>
         <Info nasaData ={nasaData} date= {date} />

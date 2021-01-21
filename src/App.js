@@ -5,11 +5,14 @@ import axios from "axios"
 import Nav from './components/Nav'
 import Card from './components/Card'
 import Arrow from './components/Arrow'
+import moment from 'moment'; 
 
 function App() {
 //use states here
 const [nasaData, setNasaData] = useState({});
-const [date, setDate] = useState('2020-01-20');
+const [date, setDate] = useState(currentDate);
+var currentDate = moment().format("YYYY-MM-DD");
+console.log(currentDate, nasaData);
 
 //call use effect to get the nasa data
 

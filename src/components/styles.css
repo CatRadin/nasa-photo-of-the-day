@@ -22,7 +22,7 @@
   display: flex;
   background: linear-gradient(
     to right bottom,
-    rgba(133, 187, 204, 0.7),
+    rgba(127, 170, 182, 0.7),
     rgba(98, 56, 138, 0.3)
   );
   border-radius: 2rem;
@@ -72,7 +72,7 @@
 .btn-random {
   background: linear-gradient(
     to right bottom,
-    rgba(133, 187, 204, 0.7),
+    rgba(90, 112, 119, 0.7),
     rgba(98, 56, 138, 0.3)
   );
   margin-top: 1%;
@@ -82,4 +82,5 @@
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-weight: bold;
+  border-radius: 2rem;
 }
