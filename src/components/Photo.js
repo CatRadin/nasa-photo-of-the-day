@@ -6,6 +6,6 @@ export default function Photo(props){
     
     
     return(
-        <img className='pic-of-day' src={nasaData.url} alt = 'photo-of-the-day'></img>
+        <img className='pic-of-day' src={nasaData.url} alt = 'space'></img>
     )
 }
