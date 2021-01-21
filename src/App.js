@@ -14,14 +14,14 @@ const [date, setDate] = useState('2020-01-20');
 
 useEffect(() => {
   axios.get(`${BASE_URL}?api_key=${API_KEY}`)
-  .then(response => {console.log(response.data)})
+  .then(response => {setNasaData(response.data)})
   .catch(error => {(console.log(error))})
 },[]);
 
   return (
     <div className="App">
       <Nav />
-      <Card />
+      <Card nasaData={nasaData} date={date} />
     </div>
   );
 }
