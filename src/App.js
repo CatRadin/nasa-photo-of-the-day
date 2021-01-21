@@ -10,7 +10,7 @@ import moment from 'moment';
 function App() {
 //use states here
 const [nasaData, setNasaData] = useState({});
-const [date, setDate] = useState(currentDate);
+// const [date, setDate] = useState(currentDate);
 var currentDate = moment().format("YYYY-MM-DD");
 console.log(currentDate, nasaData);
 
