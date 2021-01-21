@@ -4,6 +4,7 @@ import { BASE_URL, API_KEY } from "./constants";
 import axios from "axios"
 import Nav from './components/Nav'
 import Card from './components/Card'
+import Arrow from './components/Arrow'
 
 function App() {
 //use states here
@@ -22,6 +23,7 @@ useEffect(() => {
     <div className="App">
       <Nav />
       <Card nasaData={nasaData} date={date} />
+      <Arrow />
     </div>
   );
 }

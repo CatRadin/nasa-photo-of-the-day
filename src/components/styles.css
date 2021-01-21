@@ -43,6 +43,7 @@
   margin: 1%;
   border-radius: 1rem;
 }
+
 /* .pic-of-day:hover {
   transform: scale(1.5);
 } */
@@ -64,5 +65,21 @@
   background: white;
   color: black;
 }
-.nav-title {
+.pic {
+  max-width: 100%;
+  max-height: 100%;
+}
+.btn-random {
+  background: linear-gradient(
+    to right bottom,
+    rgba(133, 187, 204, 0.7),
+    rgba(98, 56, 138, 0.3)
+  );
+  margin-top: 1%;
+  padding: 0.4rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
 }

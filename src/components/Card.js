@@ -12,7 +12,6 @@ return (
     <div className= 'card-container'>
         <Info nasaData ={nasaData} date= {date} />
         <Photo nasaData = { nasaData } date = { date } />
-
     </div>
 )
 }
