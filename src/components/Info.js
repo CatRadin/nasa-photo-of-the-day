@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios"
+import React from "react";
+
 import moment from 'moment'; 
 
 export default function Search(props){
 
 const { nasaData } = props
-const { date } = props
+
 console.log(nasaData);
 var currentDate = moment().format("YYYY-MM-DD");
 
