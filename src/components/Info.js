@@ -9,8 +9,8 @@ console.log(nasaData);
 
     return(
         <div className='info-container'>
-            <h3>Date: {date} </h3>
-            <h1>Title: {nasaData.title} </h1>
+            <h3> {date} </h3>
+            <h1> {nasaData.title} </h1>
             <p>{nasaData.explanation}</p>
         </div>
     )

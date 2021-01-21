@@ -3,9 +3,9 @@ import axios from "axios"
 
 export default function Photo(props){
     const { nasaData } = props
-    console.log(nasaData)
-    let picURL = nasaData.url
+    
+    
     return(
-        <img src={picURL}></img>
+        <img className='pic-of-day' src={nasaData.url}></img>
     )
 }
