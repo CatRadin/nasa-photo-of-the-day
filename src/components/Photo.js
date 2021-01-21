@@ -6,6 +6,8 @@ export default function Photo(props){
     
     
     return(
+        
         <img className='pic-of-day' src={nasaData.url} alt = 'space'></img>
+        
     )
 }

@@ -7,7 +7,7 @@ export default function Search(props){
 const { nasaData } = props
 
 console.log(nasaData);
-var currentDate = moment().format("YYYY-MM-DD");
+var currentDate = moment().format("MM-DD-YYYY");
 
     return(
         <div className='info-container'>

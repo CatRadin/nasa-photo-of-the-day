@@ -7,6 +7,5 @@ export default function Search(props){
         <form className='search-bar'>
             <label for="fname">Search: </label>
             <input type ="text"></input></form>
-    
-    )
-}
+    ) 
+    }

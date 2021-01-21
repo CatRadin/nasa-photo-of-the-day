@@ -20,6 +20,8 @@
   margin-top: 8%;
   background: white;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background: linear-gradient(
     to right bottom,
     rgba(127, 170, 182, 0.7),
@@ -34,6 +36,10 @@
   font-family: "Poppins", sans-serif;
   word-wrap: break-word;
   white-space: pre-line;
+
+  @media (max-width 550px) {
+    flex-direction: column;
+  }
 }
 
 .pic-of-day {
@@ -51,6 +57,7 @@
   margin: 1rem;
   overflow: auto;
   white-space: pre-line;
+  width: 40vw;
 }
 .info-container::-webkit-scrollbar {
   display: none;
@@ -65,10 +72,7 @@
   background: white;
   color: black;
 }
-.pic {
-  max-width: 100%;
-  max-height: 100%;
-}
+
 .btn-random {
   background: linear-gradient(
     to right bottom,
@@ -86,4 +90,29 @@
 }
 .nav-title img {
   height: 50px;
+}
+
+/* .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.links button {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7rem;
+  letter-spacing: 0.5rem;
+  background: none;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border: none;
+  /* background: linear-gradient(
+    to right bottom,
+    rgba(151, 190, 190, 0.7),
+    rgba(78, 24, 129, 0.3)
+  ); */
+/* border-radius: 1rem;
+} */
+*/ .links button:hover {
+  color: #5f9f9f;
 }
